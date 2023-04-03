@@ -1,0 +1,23 @@
+/*create database*/
+CREATE SCHEMA `bookshopdbb`;
+
+use `bookshopdb`;
+
+/*create tables*/
+CREATE TABLE `bookshopdb`.`books` (
+  `id` INT NOT NULL AUTO_INCREMENT,
+  `title` VARCHAR(45) NULL,
+  `desc` VARCHAR(45) NULL,
+  `cover` VARCHAR(45) NULL,
+  `price` INT NULL,
+  PRIMARY KEY (`id`));
+  
+  
+/*insert data*/
+INSERT INTO `bookshopdb`.`books` (`id`, `title`, `desc`, `cover`, `price`) VALUES ('1', 'test title', 'test desc', 'cover.png', '0');
+INSERT INTO `bookshopdb`.`books` (`id`, `title`, `desc`, `cover`, `price`) VALUES ('2', 'title from Back', 'desc from back', 'cover pic from back', '0');
+INSERT INTO `bookshopdb`.`books` (`id`, `title`, `desc`, `cover`, `price`) VALUES ('3', 'title from client', 'desc from client', 'cover pic from client', '0');
+INSERT INTO `bookshopdb`.`books` (`id`, `title`, `desc`, `cover`, `price`) VALUES ('5', 'title from react(web)', 'desc from react(web)', 'cover from react(web)', '500');
+INSERT INTO `bookshopdb`.`books` (`id`, `title`, `desc`, `cover`, `price`) VALUES ('6', 'life story', 'This is the story of you.', 'pic of a face.png', '5000');
+
+

@@ -29,8 +29,8 @@ const Books = () => {
     <div className="books">
       <h1>MST Book Shop</h1>
       <div className="books">
-        {books.map((book) => (
-          <div className="book" key="book.id">
+        {books.map((book,index) => (
+          <div className="book" key={index}>
             {book.cover && <img src={book.cover} alt="" />}
             <h2>{book.title}</h2>
             <p>{book.desc}</p>

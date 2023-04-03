@@ -24,7 +24,7 @@ const Add = () => {
       console.log(err);
     }
   };
-  console.log(book);
+  // console.log(book);
   return (
     <div className="addbook">
       <h1>Add new Book</h1>
