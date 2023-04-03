@@ -1,0 +1,56 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 500px;
+  text-align: center;
+  align-items: center;
+}
+
+input {
+  width: 250px;
+  padding: 10px;
+  border: 1px solid gray;
+}
+
+.book {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid gray;
+  width: 250px;
+  height: 300px;
+  gap: 5px;
+  align-items: center;
+  justify-content: center;
+}
+
+.books {
+  margin-left: 275px;
+  margin-right: 275px;
+  margin-bottom: 20px;
+  gap: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  text-align: center;
+  background-color: rgb(247, 159, 130);
+}
+
+button {
+  width: 150px;
+}
+
+.addbook input{
+    display: flex;
+    flex-direction: column;
+    margin-left: 540px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.addbook button{
+    margin-left: 600px;
+
+}
